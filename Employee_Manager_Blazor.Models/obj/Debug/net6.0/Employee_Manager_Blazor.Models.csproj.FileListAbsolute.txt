@@ -1,0 +1,12 @@
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\bin\Debug\net6.0\Employee_Manager_Blazor.Models.deps.json
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\bin\Debug\net6.0\Employee_Manager_Blazor.Models.dll
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\bin\Debug\net6.0\Employee_Manager_Blazor.Models.pdb
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\obj\Debug\net6.0\Employee_Manager_Blazor.Models.csproj.AssemblyReference.cache
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\obj\Debug\net6.0\Employee_Manager_Blazor.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\obj\Debug\net6.0\Employee_Manager_Blazor.Models.AssemblyInfoInputs.cache
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\obj\Debug\net6.0\Employee_Manager_Blazor.Models.AssemblyInfo.cs
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\obj\Debug\net6.0\Employee_Manager_Blazor.Models.csproj.CoreCompileInputs.cache
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\obj\Debug\net6.0\Employee_Manager_Blazor.Models.dll
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\obj\Debug\net6.0\refint\Employee_Manager_Blazor.Models.dll
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\obj\Debug\net6.0\Employee_Manager_Blazor.Models.pdb
+C:\Employee_Management_Project\Blazor_Employee_Manager\Employee_Manager_Blazor.Models\obj\Debug\net6.0\ref\Employee_Manager_Blazor.Models.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "84dkIOdLxyXXyVFaJxtX95JkN8bqmu9l/bigYTlLmPc=",
+  "Source": "Employee_Manager_Blazor_API",
+  "BasePath": "_content/Employee_Manager_Blazor_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

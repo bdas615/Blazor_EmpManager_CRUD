@@ -1,0 +1,25 @@
+﻿@page "/";
+@using Blazor_Employee_Manager.Services
+@using Employee_Manager_Blazor.Models
+@inherits EmployeeDetailsPageBase;
+
+<h3>Employee Details</h3>
+
+<a href="/user/add" class="btn btn-primary" role="button">
+    <i class="fa fa-plus" aria-hidden="true"></i>Add User
+</a>
+
+@if (Employees == null) 
+{
+    <span>No data yet</span>
+}
+
+else
+{
+    <div>
+        @foreach (var emp in Employees)
+        {
+            <span>@emp.FirstName</span>
+        }   
+    </div>
+}
