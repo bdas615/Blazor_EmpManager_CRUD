@@ -91,3 +91,11 @@ C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\b
 C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\bin\Debug\net6.0\Employee_Manager_Blazor_API.dll
 C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\bin\Debug\net6.0\Employee_Manager_Blazor_API.pdb
 C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\obj\Debug\net6.0\Blazor_Employee_Manager.MvcApplicationPartsAssemblyInfo.cs
+C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\bin\Debug\net6.0\Blazored.Toast.dll
+C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Employee_Management_Project\Blazor_Employee_Manager\Blazor_Employee_Manager\bin\Debug\net6.0\System.IO.Pipelines.dll

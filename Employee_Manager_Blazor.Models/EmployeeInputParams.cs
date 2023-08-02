@@ -15,10 +15,5 @@ namespace Employee_Manager_Blazor.Models
         //public String PhotoUpload { get; set; }
         public DateTime JoiningDate { get; set; } = DateTime.Now;
         public DateTime CreatedOn { get; set; }
-
-        public static implicit operator List<object>(EmployeeInputParams? v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

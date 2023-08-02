@@ -62,3 +62,67 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+#cardDiv {
+    width: 15rem;
+    margin-left: 2px;
+    margin-top: 19px !important;
+}
+
+    #cardDiv > img {
+        width: 35px;
+        height: 40px;
+        margin-left: 22px;
+        margin-top: 15px;
+    }
+
+    #cardDiv > .card-header > i {
+        float: right;
+        font-size: 18px;
+        margin-top:2px;
+    }
+
+    #cardDiv > .card-header > p {
+        position: absolute;
+        font-size: 13px;
+        font-family: cursive;
+    }
+
+    #cardDiv > .card-header {
+        height: 38px;
+        background-color: dodgerblue;
+        color: white;
+    }
+
+.card-text {
+    font-size: 13px;
+    margin-left: 1px;
+    font-family: cursive;
+}
+
+#employeeHeader {
+    font-size: 15px;
+    font-family: cursive;
+}
+
+#addBtn {
+    padding: 1px 7px 3px 6px;
+    margin-top: 5px;
+}
+
+#cardDiv > .card-body > #deleteBtn, #editBtn {
+    width: 46%;
+    margin-right: 5px;
+}
+
+#searchBox {
+    float: right;
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 118px;
+}
+
+#searchBox>input{
+    width:125px;
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7Hae7De81q+w/t3jD64S3yoQcTcmEErO8NDOhFuJM68=",
+  "Hash": "6Fu85LNezxGv23Tjfhdjoul8NsvF2Roln23NNgh2xns=",
   "Source": "Blazor_Employee_Manager",
   "BasePath": "_content/Blazor_Employee_Manager",
   "Mode": "Default",
@@ -267,6 +267,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Employee_Management_Project\\Blazor_Employee_Manager\\Blazor_Employee_Manager\\wwwroot\\css\\user.png",
+      "SourceId": "Blazor_Employee_Manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Employee_Management_Project\\Blazor_Employee_Manager\\Blazor_Employee_Manager\\wwwroot\\",
+      "BasePath": "_content/Blazor_Employee_Manager",
+      "RelativePath": "css/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\user.png"
+    },
+    {
       "Identity": "C:\\Employee_Management_Project\\Blazor_Employee_Manager\\Blazor_Employee_Manager\\wwwroot\\favicon.ico",
       "SourceId": "Blazor_Employee_Manager",
       "SourceType": "Discovered",
@@ -282,6 +299,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\bdas\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\Blazored.Toast.bundle.scp.css",
+      "SourceId": "Blazored.Toast",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bdas\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Toast",
+      "RelativePath": "Blazored.Toast.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bdas\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\Blazored.Toast.bundle.scp.css"
     }
   ]
 }

@@ -2,76 +2,77 @@
 @page "/user/edit/{userId:int}";
 @using Blazor_Employee_Manager.Services
 @using Employee_Manager_Blazor.Models
-@inject IEmployeeService employeeService
+@using Newtonsoft.Json
+@inject ApiService apiService;
 
 @inject HttpClient http;
 @inject NavigationManager navigationManager;
 
 <h3>Add Employee</h3>
 <hr/>
-<EditForm Model="@emp" OnValidSubmit="CreateEmp">
+<EditForm Model="@employees" OnValidSubmit="SubmitForm">
     <DataAnnotationsValidator/>
     
     <div class="mb-3">
         <label for="Firstname" class="form-label">First Name</label>
         <div class="col-md-4">
-            <InputText class="form-control" placeholder="Enter Firstame" @bind-Value="emp.FirstName"></InputText>
+            <InputText class="form-control" placeholder="Enter Firstame" @bind-Value="employees.FirstName"></InputText>
         </div>
-        <ValidationMessage For="@(()=> emp.FirstName)"></ValidationMessage>
+        <ValidationMessage For="@(()=> employees.FirstName)"></ValidationMessage>
     </div>
 
     <div class="mb-3">
         <label for="Lastname" class="form-label">Last Name</label>
         <div class="col-md-4">
-            <InputText class="form-control" placeholder="Enter Lastname" @bind-Value="emp.LastName"></InputText>
+            <InputText class="form-control" placeholder="Enter Lastname" @bind-Value="employees.LastName"></InputText>
         </div>
-        <ValidationMessage For="@(()=> emp.LastName)"></ValidationMessage>
+        <ValidationMessage For="@(()=> employees.LastName)"></ValidationMessage>
     </div>
 
     <div class="mb-3">
         <label for="Email" class="form-label">Email</label>
         <div class="col-md-4">
-            <InputText class="form-control" placeholder="Enter Email" @bind-Value="emp.Email"></InputText>
+            <InputText class="form-control" placeholder="Enter Email" @bind-Value="employees.Email"></InputText>
         </div>
-        <ValidationMessage For="@(()=> emp.Email)"></ValidationMessage>
+        <ValidationMessage For="@(()=> employees.Email)"></ValidationMessage>
     </div>
 
      <div class="mb-3">
         <label for="Gender" class="form-label">Gender</label>
        <div class="col-md-4">
-            <InputText class="form-control" placeholder="Enter Gender" @bind-Value="emp.Gender"></InputText>
+            <InputText class="form-control" placeholder="Enter Gender" @bind-Value="employees.Gender"></InputText>
         </div>
-        <ValidationMessage For="@(()=> emp.Gender)"></ValidationMessage>
+        <ValidationMessage For="@(()=> employees.Gender)"></ValidationMessage>
     </div>
 
     <div class="mb-3">
         <label for="itemDate" class="form-label">DOB</label>
         <div class="col-md-4">
-            <InputDate id="itemDate" class="form-control" placeholder="Enter DOB" 
-                @bind-Value="emp.DOB"></InputDate>
+            <InputDate id="itemDate" class="form-control" placeholder="Enter DOB"
+                       @bind-Value="employees.DOB"></InputDate>
         </div>
-        <ValidationMessage For="@(()=> emp.DOB)"></ValidationMessage>
+        <ValidationMessage For="@(()=> employees.DOB)"></ValidationMessage>
     </div>
 
     <div class="mb-3">
         <label for="Address" class="form-label">Address</label>
         <div class="col-md-4">
-            <InputText class="form-control" placeholder="Enter Address" @bind-Value="emp.Address"></InputText>
+            <InputText class="form-control" placeholder="Enter Address" @bind-Value="employees.Address"></InputText>
         </div>
-        <ValidationMessage For="@(()=> emp.Address)"></ValidationMessage>
+        <ValidationMessage For="@(()=> employees.Address)"></ValidationMessage>
     </div>
 
     <div class="mb-3">
         <label for="itemDate" class="form-label">Joining Date</label>
         <div class="col-md-4">
-            <InputDate id="itemDate" class="form-control" placeholder="Enter Joining Date" @bind-Value="emp.JoiningDate"></InputDate>
+            <InputDate id="itemDate" class="form-control" placeholder="Enter Joining Date" @bind-Value="employees.JoiningDate"></InputDate>
         </div>
-        <ValidationMessage For="@(()=> emp.JoiningDate)"></ValidationMessage>
+        <ValidationMessage For="@(()=> employees.JoiningDate)"></ValidationMessage>
     </div>
 
     <div class="form-group">
         <button type="submit" class="btn btn-primary">Save</button>
-        <button type="button" class="btn btn-light" @onclick="Cancel">Cancel</button>
+        <button type="reset" class="btn btn-light" onclick="window.location.reload(true)">Reset</button>
     </div>
 
 </EditForm>
@@ -82,16 +83,13 @@
     [Parameter]
     public int userId { get; set; }
 
-    public EmployeeInputParams emp { get; set; } = new EmployeeInputParams();
+    EmployeeInputParams employees = new EmployeeInputParams();
 
-    protected async Task CreateEmp()
+    private async void SubmitForm()
     {
-            await employeeService.CreateEmployee(emp);
-    }
-
-    public void Cancel()
-    {
+        await apiService.CreateEmp(employees);
         navigationManager.NavigateTo("/");
     }
+
 
 }

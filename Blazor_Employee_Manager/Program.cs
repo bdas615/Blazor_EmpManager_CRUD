@@ -1,4 +1,5 @@
 using Blazor_Employee_Manager.Services;
+using Blazored.Toast;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
@@ -7,13 +8,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddBlazoredToast();
 
-builder.Services.AddHttpClient<IEmployeeService, EmployeeService>(client =>
+//builder.Services.AddScoped<ApiService>();
+
+builder.Services.AddHttpClient<ApiService>(client =>
     {
         client.BaseAddress = new Uri("https://localhost:7085/");
     });
-
-builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 
 var app = builder.Build();
 

@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Employee_Management_Project\\Blazor_Employee_Manager\\Blazor_Employee_Manager\\wwwroot\\css\\user.png",
+      "PackagePath": "staticwebassets\\css\\user.png"
+    },
+    {
       "Id": "C:\\Employee_Management_Project\\Blazor_Employee_Manager\\Blazor_Employee_Manager\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
